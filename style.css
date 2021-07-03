@@ -1,0 +1,149 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 10px;
+    padding: 0px;
+    background-image: url('img/bg.jpg');
+    /* background-repeat: no-repeat; */
+    height: 1500px;
+    color: rgb(238, 241, 241);
+}
+.left{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position:absolute;
+    top: 10px;
+    left: 50px;
+    padding: 20px;
+
+}
+.left img{
+    height: 95px; 
+    width: 128px;
+    
+}
+.left div{
+    font-size: 16px;
+    line-height: 15px;
+    color: rgb(35, 173, 228);
+}
+.mid{
+    /* border: 3px solid rgb(31, 233, 91); */
+    display: block;
+    margin: 0px auto;
+    width: 650px;
+    padding: 40px;
+    
+
+}
+.right{
+    /* border: 3px solid rgb(16, 102, 231); */
+    display: inline-block;
+    position:absolute;
+    top: 10px;
+    right: 50px;
+    
+
+}
+.navbar{
+    margin: auto;
+    /* background-color: rgb(123, 216, 228); */
+    /* border-radius: 10px; */
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size:25px;
+
+}
+.navbar li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 23px;
+    
+   
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: rgb(221, 11, 11);
+}
+.search{
+    padding: 30px 30px;
+    margin: 20px 20px;
+    float: right;
+    background: rgb(238, 235, 235);
+   
+}
+.searchhere{
+    color: rgb(236, 245, 245);
+    background:rgb(0, 0, 0);
+}
+.searchhere:hover{
+    color: rgb(0, 232, 248);
+}
+.container{
+    border: 3px solid rgb(236, 235, 225);
+    margin: 97px 90px;
+    padding: 58px 56px;
+    width: 33%;
+    border-radius: 30px;
+    display: inline-block;
+}
+.container h1{
+    color: #59d490;
+    cursor: pointer;
+    
+    
+}
+.container h1:hover{
+    color: indianred;
+}
+.container h3{
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;     
+    text-align: center;
+    height: 50px;
+    width: 410px;
+    padding: 10px 20px;
+    margin: 16px -12px;
+    border-radius: 30px;
+    border: 2px solid rgb(9, 140, 180);
+    font-size: 25px;
+}
+.btn{
+    cursor: pointer;
+    width: 100px;
+    background-color: #000000;
+}
+.container button{
+    color: white;
+    display: block;
+    margin: 13px auto;
+    /* padding: 1px; */
+    width: 229px;
+    font-size: 25px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    border-radius: 30px;  
+
+}
+.container button:hover{
+    color: rgb(240, 9, 9);
+}
+.picu img{
+    width: 500px ;
+    height: 600px;
+    /* float: right; */
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 110px;
+    bottom: 65px;
+    top: 300px;
+}
+
